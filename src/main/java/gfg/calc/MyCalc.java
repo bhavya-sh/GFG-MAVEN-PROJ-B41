@@ -22,6 +22,11 @@ public class MyCalc {
 	{
 		return a%b;
 	}
+	public void show()
+	{
+		System.out.println("Github action");
+	}
+
 	public static void main(String[] args) {
 		
 		MyCalc calc = new MyCalc();
