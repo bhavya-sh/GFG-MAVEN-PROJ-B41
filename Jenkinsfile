@@ -26,7 +26,7 @@ pipeline
 			{
 				steps
 				{
-					sh 'mvn install'
+					sh "mvn install -DbuildNumber=${BUILD_NUMBER}"
 				}
 			}
 			stage('Build Success')
