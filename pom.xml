@@ -10,7 +10,7 @@
   </properties>
   
   <build>
-		<finalName>gfg-calc</finalName>
+		<finalName>gfg-calc.${buildNumber}</finalName>
 		<plugins>
 
 			<plugin>
