@@ -17,7 +17,7 @@ public class MyCalc {
 	{
 		return a/b;
 	}
-}
+
 	public void show()
 	{
 		System.out.println("Github action");
@@ -33,5 +33,5 @@ public class MyCalc {
 		System.out.println("Mod is "+calc.mod(20,10));
 		calc.show();
 	}
-
 }
+
