@@ -27,7 +27,7 @@ pipeline
 				steps
 				{
 					sh "mvn install"
-					sh "mv target/gfg-calc.local.jar target/gfg-calc.${BUILD_NUMBER}.jar"
+					
 				}
 			}
 			stage('Build Success')
